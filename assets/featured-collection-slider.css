@@ -1,3 +1,14 @@
 .sp_slider{
   padding: 40px 0;
 }
+
+
+@media all and (min-width: 640px){
+  .sp_slider{
+    .collection__title{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
