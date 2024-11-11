@@ -1,5 +1,10 @@
 .sp_slider{
   padding: 40px 0;
+  .collection__title{
+    .link{
+      font-size: 18px;
+    }
+  }
 }
 
 
