@@ -49,6 +49,7 @@
       "settings": {
         "title": "The Donut Range",
         "view_all": true,
+        "collection": "featured",
         "autoplay": true
       }
     }
