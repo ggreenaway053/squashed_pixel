@@ -12,7 +12,7 @@
     <div class="view_all">
       <a
         href="{{ section.settings.collection.url }}"
-        class="{% if section.settings.view_all_style == 'link' %}link underlined-link{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %}"
+        class="link underlined-link"
         aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title | escape }}"
       >
         {{ 'sections.featured_collection.view_all' | t }}
