@@ -32,6 +32,10 @@
           border-bottom-left-radius: 20px;
           color: #000;
           background: #8ff695;
+          transition: .5s;
+          &::before, &::after{
+            display: none;
+          }
         }
       }
     }
