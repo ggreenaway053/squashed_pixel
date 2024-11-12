@@ -29,5 +29,11 @@
         margin-bottom: 0;
       }
     }
+
+    .main-carousel{
+      .carousel-cell{
+        width: 24%;
+      }
+    }
   }
 }
