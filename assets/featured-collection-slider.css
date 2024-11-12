@@ -30,6 +30,8 @@
         .quick-add__submit{
           border-bottom-right-radius: 20px;
           border-bottom-left-radius: 20px;
+          color: #000;
+          background: #8ff695;
         }
       }
     }
