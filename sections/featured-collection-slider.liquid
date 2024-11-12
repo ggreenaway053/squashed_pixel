@@ -53,7 +53,7 @@ if( {{ section.settings.autoplay }} == true ){
           height="{{ product.featured_media.height }}"
           >
       </a>
-      <h3>{{ product.title }}</h3>
+      <h3><a href="{{ product.url }}" id="CardLink-{{ section.id }}-{{ product.id }}" class="full-unstyled-link" aria-labelledby="CardLink-{{ section.id }}-{{ product.id }} Badge-{{ section_id }}-{{ product.id }}">{{ product.title | escape }}</a></h3>
       <p>{{ product.description | truncate: 150 }}</p>
     </div>
   </div>
