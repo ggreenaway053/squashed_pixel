@@ -28,6 +28,7 @@
         a.image{
           display: block;
           overflow: hidden;
+          border-radius: 20px;
           img{
             transition: .5s;
             position: relative;
