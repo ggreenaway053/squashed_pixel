@@ -23,7 +23,14 @@
           overflow: hidden;
           border-radius: 20px;
         }
-        
+        .flavour{
+          font-size: 12px;
+        }
+
+        .quick-add__submit{
+          border-bottom-right-radius: 20px;
+          border-bottom-left-radius: 20px;
+        }
       }
     }
   }
