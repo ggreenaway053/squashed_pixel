@@ -37,7 +37,7 @@
             bottom: -2px;
             transition: transform .3s cubic-bezier(.7,0,.2,1),-webkit-transform .3s cubic-bezier(.7,0,.2,1);
           }
-          &::hover{
+          &:hover{
             &::after{
               width: 100%;
             }
