@@ -26,6 +26,8 @@
         }
 
         a.image{
+          display: block;
+          overflow: hidden;
           img{
             transition: .5s;
             position: relative;
