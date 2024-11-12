@@ -41,7 +41,7 @@
       <p>{{ product.description | truncate: 80 }}</p>
 
       {% if product.metafields.custom.flavour != blank %}
-      <p><strong>Flavour: {{product.metafields.custom.flavour }}</strong></p>
+      <p class="flavour"><strong>Flavour: {{product.metafields.custom.flavour }}</strong></p>
       {% endif %}
 
       <product-form data-section-id="{{ section.id }}">
