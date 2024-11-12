@@ -40,7 +40,7 @@
       <h3><a href="{{ product.url }}" id="CardLink-{{ section.id }}-{{ product.id }}" class="full-unstyled-link" aria-labelledby="CardLink-{{ section.id }}-{{ product.id }} Badge-{{ section_id }}-{{ product.id }}">{{ product.title | escape }}</a></h3>
       <p>{{ product.description | truncate: 80 }}</p>
 
-      {% if product.metafields.flavour != blank %}
+      {% if product.metafields.custom.flavour != blank %}
       <p><strong>Flavour: {{product.metafields.custom.flavour }}</strong></p>
       {% endif %}
 
