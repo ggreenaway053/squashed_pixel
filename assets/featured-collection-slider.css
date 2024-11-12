@@ -27,7 +27,8 @@
         a{
           transition: .5s;
           position: relative;
-          &::after{
+          &:after{
+            content: '';
             position: absolute;
             width: 0;
             height: 1px;
