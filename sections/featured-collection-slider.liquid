@@ -38,7 +38,7 @@
           >
       </a>
       <h3><a href="{{ product.url }}" id="CardLink-{{ section.id }}-{{ product.id }}" class="full-unstyled-link" aria-labelledby="CardLink-{{ section.id }}-{{ product.id }} Badge-{{ section_id }}-{{ product.id }}">{{ product.title | escape }}</a></h3>
-      <p>{{ product.description | truncate: 150 }}</p>
+      <p>{{ product.description | truncate: 80 }}</p>
 
       <product-form data-section-id="{{ section.id }}">
         {%- form 'product',
