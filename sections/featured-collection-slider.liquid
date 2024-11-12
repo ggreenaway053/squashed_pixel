@@ -32,6 +32,12 @@ if( {{ section.settings.autoplay }} == true ){
 <div class="main-carousel">
 {% for product in section.settings.collection.products limit: 8 %}
   <div class="carousel-cell">{{ product.title }}</div>
+
+  {% render 'card-product',
+    card_product: product,
+    section_id: section.id,
+    quick_add: 'standard'
+  %}
 {% endfor %}
 </div>
 
