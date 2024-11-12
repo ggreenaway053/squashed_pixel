@@ -33,7 +33,7 @@ if( {{ section.settings.autoplay }} == true ){
 {% for product in section.settings.collection.products limit: 8 %}
   <div class="carousel-cell">
     <div class="product">
-      <div class="image media--hover-effect">
+      <a href="{{ product.selected_or_first_variant.url }}" class="image media--hover-effect">
         <img
           srcset="
             {%- if product.featured_media.width >= 165 -%}{{ product.featured_media | image_url: width: 165 }} 165w,{%- endif -%}
@@ -52,7 +52,7 @@ if( {{ section.settings.autoplay }} == true ){
           width="{{ product.featured_media.width }}"
           height="{{ product.featured_media.height }}"
           >
-      </div>
+      </a>
       <h3>{{ product.title }}</h3>
       <p>{{ product.description | truncate: 150 }}</p>
     </div>
