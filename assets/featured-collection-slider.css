@@ -44,6 +44,7 @@
 
         a:not(.image){
           display: inline-block;
+          position: relative;
           &:after{
             content: '';
             position: absolute;
