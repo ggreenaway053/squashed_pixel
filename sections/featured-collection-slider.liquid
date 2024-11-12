@@ -29,15 +29,15 @@ if( {{ section.settings.autoplay }} == true ){
   {%- endif -%}
 </div>
 
-<div class="main-carousel">
+<div class="main-carousel page-width-desktop slider-component-desktop scroll-trigger animate--slide-in">
 {% for product in section.settings.collection.products limit: 8 %}
-  <div class="carousel-cell">{{ product.title }}</div>
-
+  <div class="carousel-cell">
   {% render 'card-product',
     card_product: product,
     section_id: section.id,
     quick_add: 'standard'
   %}
+  </div>
 {% endfor %}
 </div>
 
