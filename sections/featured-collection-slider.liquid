@@ -1,11 +1,4 @@
 {{ 'featured-collection-slider.css' | asset_url | stylesheet_tag }}
-
-<script>
-var sp_slider_autoplay = false;
-if( {{ section.settings.autoplay }} == true ){
-  sp_slider_autoplay = true;
-}
-</script>
 <script src="{{ 'featured-collection-slider.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
 
@@ -29,7 +22,7 @@ if( {{ section.settings.autoplay }} == true ){
   {%- endif -%}
 </div>
 
-<div class="main-carousel page-width-desktop slider-component-desktop scroll-trigger animate--slide-in" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "autoPlay": {{ section.settings.autoplay }}  }'>
+<div class="main-carousel page-width-desktop slider-component-desktop scroll-trigger animate--slide-in" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "autoPlay": false }'>
 {% for product in section.settings.collection.products limit: 8 %}
   {% assign product_form_id = 'quick-add-' | append: section_id | append: product.id %}
   <div class="carousel-cell">
