@@ -52,13 +52,10 @@ if( {{ section.settings.autoplay }} == true ){
           width="{{ product.featured_media.width }}"
           height="{{ product.featured_media.height }}"
           >
-        </div>
+      </div>
+      <h3>{{ product.title }}</h3>
+      <p>{{ product.description | truncate: 15 }}</p>
     </div>
-  {% render 'card-product',
-    card_product: product,
-    section_id: section.id,
-    quick_add: 'standard'
-  %}
   </div>
 {% endfor %}
 </div>
