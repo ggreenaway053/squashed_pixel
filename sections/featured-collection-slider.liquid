@@ -30,7 +30,7 @@ if( {{ section.settings.autoplay }} == true ){
 </div>
 
 <div class="main-carousel">
-{% for product in section.settings.collection.products limit: 6 %}
+{% for product in section.settings.collection.products limit: 8 %}
   <div class="carousel-cell">{{ product.title }}</div>
 {% endfor %}
 </div>
