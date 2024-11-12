@@ -12,8 +12,8 @@
       padding: 10px;
       border-radius: 20px;
       box-shadow: 0 1px 5px #0009;
+      margin-right: 15px;
       .product{
-        margin-right: 15px;
         padding: 10px;
         img{
           width: 100%;
