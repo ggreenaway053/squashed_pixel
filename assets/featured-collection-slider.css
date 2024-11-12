@@ -10,7 +10,7 @@
   .main-carousel{
     .carousel-cell{
       width: 80%;
-      padding: 0 15px;
+      padding: 10px 15px;
       .product{
         padding: 10px;
         background: #fff;
