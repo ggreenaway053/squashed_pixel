@@ -32,7 +32,7 @@ if( {{ section.settings.autoplay }} == true ){
 <div class="main-carousel page-width-desktop slider-component-desktop scroll-trigger animate--slide-in">
 {% for product in section.settings.collection.products limit: 8 %}
   {% assign product_form_id = 'quick-add-' | append: section_id | append: product.id %}
-  <div class="carousel-cell">
+  <div class="carousel-cell" data-flickity='{ "cellAlign": "left", "contain": true }'>
     <div class="product">
       <a href="{{ product.selected_or_first_available_variant.url }}" class="image media--hover-effect">
         <img

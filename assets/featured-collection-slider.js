@@ -1,2 +1,1 @@
-$(document).ready(function(){
-});
+console.log("Hey 👋. I hope this meets the standard you guys are looking! Don't forget to give me a shout - ggreenaway053@gmail.com / garethgreenaway.co.uk 🤠");
