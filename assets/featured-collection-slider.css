@@ -74,6 +74,8 @@
         }
         .flavour{
           font-size: 12px;
+          margin-top: 30px;
+          font-weight: 600;
         }
 
         .quick-add__submit{
