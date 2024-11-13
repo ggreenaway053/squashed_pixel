@@ -58,7 +58,7 @@
 
         h3{
           font-family: var(--font-body-family);
-          font-size: 2rem;
+          font-size: 1.5rem;
           margin: 10px 0;
         }
 
@@ -146,11 +146,6 @@
 
       .carousel-cell{
         width: 31%;
-        .product{
-          h3{
-            font-size: 1.5rem;
-          }
-        }
       }
     }
   }
