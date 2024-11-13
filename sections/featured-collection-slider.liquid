@@ -22,7 +22,7 @@
   {%- endif -%}
 </div>
 
-<div id="slider_{{section.id}}" class="main-carousel page-width-desktop slider-component-desktop scroll-trigger animate--slide-in" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "autoPlay": false, "prevNextButtons": false }'>
+<div id="slider_{{section.id}}" class="main-carousel page-width-desktop slider-component-desktop scroll-trigger animate--slide-in" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "autoPlay": {{ section.settings.autoplay }}, "prevNextButtons": false }'>
 {% for product in section.settings.collection.products limit: 8 %}
   {% assign product_form_id = 'quick-add-' | append: section_id | append: product.id %}
   <div class="carousel-cell">
