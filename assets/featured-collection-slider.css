@@ -51,6 +51,7 @@
 
         h3{
           font-family: var(--font-body-family);
+          font-size: 2rem;
         }
 
         a:not(.image){
