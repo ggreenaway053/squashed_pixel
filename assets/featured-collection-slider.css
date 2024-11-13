@@ -123,6 +123,7 @@
         .flickity-page-dots{
           padding: 0 .5rem;
           .dot{
+            transition: .3s all;
             &.is-selected{
               background: #8ff695;
             }
