@@ -9,6 +9,16 @@
 
   .main-carousel{
 
+    .flickity-page-dots{
+      padding: 0 .5rem;
+      .dot{
+        transition: .3s all;
+        &.is-selected{
+          background: #8ff695;
+        }
+      }
+    }
+
     &*:focus-visible{
       outline: none;
       box-shadow: none;
@@ -115,18 +125,12 @@
     }
 
     .main-carousel{
+      .flickity-page-dots{
+        padding: 0 .5rem;
+      }
+
       .carousel-cell{
         width: 25%;
-
-        .flickity-page-dots{
-          padding: 0 .5rem;
-          .dot{
-            transition: .3s all;
-            &.is-selected{
-              background: #8ff695;
-            }
-          }
-        }
       }
     }
   }
