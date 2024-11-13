@@ -122,6 +122,11 @@
 
         .flickity-page-dots{
           padding: 0 .5rem;
+          .dot{
+            &.is-selected{
+              background: #8ff695;
+            }
+          }
         }
       }
     }
