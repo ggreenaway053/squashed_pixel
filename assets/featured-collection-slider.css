@@ -98,6 +98,8 @@
           color: #000;
           background: #8ff695;
           transition: .5s;
+          position: relative;
+          overflow: hidden;
           &::after{
             display: none;
           }
