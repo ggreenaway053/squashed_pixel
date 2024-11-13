@@ -145,6 +145,16 @@
       }
 
       .carousel-cell{
+        width: 31%;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 1024px){
+  .sp_slider{
+    .main-carousel{
+      .carousel-cell{
         width: 25%;
       }
     }
