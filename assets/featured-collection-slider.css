@@ -146,6 +146,11 @@
 
       .carousel-cell{
         width: 31%;
+        .product{
+          h3{
+            font-size: 1.5rem;
+          }
+        }
       }
     }
   }
@@ -156,6 +161,11 @@
     .main-carousel{
       .carousel-cell{
         width: 25%;
+        .product{
+          h3{
+            font-size: 2rem;
+          }
+        }
       }
     }
   }
