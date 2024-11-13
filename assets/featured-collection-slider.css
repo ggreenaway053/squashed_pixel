@@ -49,6 +49,10 @@
 
         }
 
+        h3{
+          font-family: var(--font-body-family);
+        }
+
         a:not(.image){
           display: inline-block;
           position: relative;
