@@ -10,7 +10,6 @@
   .main-carousel{
 
     .flickity-page-dots{
-      padding: 0 .5rem;
       .dot{
         transition: .3s all;
         &.is-selected{
@@ -142,7 +141,7 @@
 
     .main-carousel{
       .flickity-page-dots{
-        padding: 0 .5rem;
+        max-width: 92%;
       }
 
       .carousel-cell{
